@@ -1,0 +1,95 @@
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.input,
+.select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  background: var(--background);
+  color: var(--foreground);
+  font-size: 0.95rem;
+}
+
+.input {
+  min-width: 240px;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  background: rgba(128, 128, 128, 0.12);
+  color: var(--foreground);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.button:hover {
+  background: rgba(128, 128, 128, 0.22);
+}
+
+.reset {
+  font-size: 0.9rem;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.count {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px 12px;
+  white-space: nowrap;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.table th {
+  background: rgba(128, 128, 128, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+.table tbody tr:hover {
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.empty {
+  padding: 24px;
+  text-align: center;
+  opacity: 0.7;
+}
